@@ -51,3 +51,26 @@ The total summary of all the lots shows a variance of 62.29 PSI, which meets the
 The lot summary that is broken up between 1, 2, and 3 offers a bit more insight into the data though. Lot 1 and 2 are both within the 100 PSI design specification because they both have variances of 0.98 and 7.47, respectively. Lot 3 is a very different though, with a variance of 170. This means that lot 3 is having a huge effect on the total lot summary. 
 
 ### T-Tests on Suspension Coils
+
+T-Test of All the Manufacturing Lots:
+
+![All Manufacturing Lots](https://user-images.githubusercontent.com/102566199/182047841-f74411a5-11e6-4f6f-8ff4-6a178f4b55bf.png)
+
+To compare to the calculated T-test, we must assume a population mean of 1500. The mean of the total lot summary is actually 1498.78. As seen by the p-value of 0.06028, we must fail to reject the null hypothesis because the p-value is not below the assumed significance level of 0.05. The mean of the three lots is statistically similar to the presumed population mean of 1500.
+
+![Lot1T-Test](https://user-images.githubusercontent.com/102566199/182047873-b568f5cf-df43-4e10-8f94-d06326b22701.png)
+
+Lot 1 actually does have a true sample mean of 1500, which was the presumed mean. The p-value is exactly 1, which means we fail to reject the null hypothesis. The null hypothesis states that there is no statistical difference between the presumed mean of 1500 and the true sample mean of 1500.
+
+![Lot2T-Test](https://user-images.githubusercontent.com/102566199/182047893-c1b30eb2-1207-4e67-b572-af77bcd74215.png)
+
+Lot 2 has the sample mean value of 1500.02 and a p-value of 0.61; therefore, we fail to reject the null hypothesis in this lot as well. The sample's true mean of 1500.02 and the presumed mean of 1500 are statistically similar. 
+
+![Lot3T-Test](https://user-images.githubusercontent.com/102566199/182047904-aa1d3026-e29d-4d55-8c7a-c89da56ad1d1.png)
+
+Lot 3 was a much different situation when it was observed in the design specifications, so we expect to find something awry in this T-test, as well. The sample mean is 1496.14 with a p-value of 0.04. In this scenario we can reject the null hypothesis due to the p-value being lower than the statistically significance level of 0.05. This means that the sample mean of 1496.14 and the presumed mean of 1500 are statistically different. 
+
+
+
+
+
