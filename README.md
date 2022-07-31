@@ -68,8 +68,34 @@ Lot 2 has the sample mean value of 1500.02 and a p-value of 0.61; therefore, we 
 
 ![Lot3T-Test](https://user-images.githubusercontent.com/102566199/182047904-aa1d3026-e29d-4d55-8c7a-c89da56ad1d1.png)
 
-Lot 3 was a much different situation when it was observed in the design specifications, so we expect to find something awry in this T-test, as well. The sample mean is 1496.14 with a p-value of 0.04. In this scenario we can reject the null hypothesis due to the p-value being lower than the statistically significance level of 0.05. This means that the sample mean of 1496.14 and the presumed mean of 1500 are statistically different. 
+Lot 3 was a much different situation when it was observed in the design specifications, so we expect to find something awry in this T-test, as well. The sample mean is 1496.14 with a p-value of 0.04. In this scenario we can reject the null hypothesis due to the p-value being lower than the statistically significance level of 0.05. This means that the sample mean of 1496.14 and the presumed mean of 1500 are statistically different. We now know for sure that something went wrong in the testing, which was demonstrated in the data collected in lot 3. The manufacturing process needs to start removing the coils that are causing this disproportate effect on the data. 
 
+### Study Design: MechaCar vs Competition
+
+To create a statistical study that would help to compare against our competitors, it would be important to focus on a measure that would help to improve upon. I would like to improve the fuel economy of the MechaCar prototypes so that the company can pitch the prototype as a way to combat high gas prices.
+ We have already found that the ground clearance the vehicle length had an effect on the dependent variable, so my plan is to improve upon the variables that can be improved. 
+
+- What metric or metrics are you going to test?
+
+Fuel Efficiency: how the vehicle's components affect fuel usage. 
+
+- What is the null hypothesis or alternative hypothesis?
+
+H0, Null Hypothesis: The fuel economy of the MechaCar prototype is not signicantly different that the fuel economy of the equivalent vehicle type of a competitor company.
+
+HA, Alterative Hypothesis: The fuel economy of the MechaCar prototype is significantly different than the fuel economy of the equivalent vehicle type of a competitor company.
+
+- What statistical test would you use to test the hypothesis? And why?
+
+A two-sample T test would be the best test to use in this study design because the distribution between the means from two samples are being analyzed for statistically difference. We are going to be comparing the AutosRUs prototype to the Competitors vehicle.
+
+- What data is needed to run the statistical test?
+
+The data that would be needed to run the statistical test would be the following:
+
+a. Vehicle weight
+
+b. Acceleration/Deceleration Capabilities
 
 
 
